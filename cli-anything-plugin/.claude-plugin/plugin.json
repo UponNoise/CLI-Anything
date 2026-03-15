@@ -1,7 +1,32 @@
 {
   "name": "cli-anything",
+  "version": "1.1.0",
   "description": "Build powerful, stateful CLI interfaces for any GUI application using the cli-anything harness methodology.",
+  "license": "MIT",
+  "homepage": "https://github.com/HKUDS/CLI-Anything/tree/main/cli-anything-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HKUDS/CLI-Anything.git",
+    "directory": "cli-anything-plugin"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "cli",
+    "agent",
+    "harness"
+  ],
+  "commands": [
+    "cli-anything",
+    "refine",
+    "test",
+    "validate",
+    "list"
+  ],
   "author": {
     "name": "cli-anything contributors"
+  },
+  "support": {
+    "issues": "https://github.com/HKUDS/CLI-Anything/issues"
   }
 }

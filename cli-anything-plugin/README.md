@@ -419,6 +419,12 @@ Inspired by the ralph-loop plugin's iterative development approach.
 
 ## Version History
 
+### 1.1.0 (2026-03-15)
+- Added `/cli-anything:list` command to improve tool discovery
+- Improved Windows environment guard documentation and setup guidance
+- Updated plugin metadata for release completeness (version/license/repository/support)
+- Aligned release versioning across plugin metadata, setup script, and git tagging
+
 ### 1.0.0 (2026-03-05)
 - Initial release
 - Support for 4 commands: cli-anything, refine, test, validate

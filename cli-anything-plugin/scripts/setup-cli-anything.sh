@@ -26,7 +26,7 @@ fi
 
 # Plugin info
 PLUGIN_NAME="cli-anything"
-PLUGIN_VERSION="1.0.0"
+PLUGIN_VERSION="1.1.0"
 
 echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e "${BLUE}  cli-anything Plugin v${PLUGIN_VERSION}${NC}"
