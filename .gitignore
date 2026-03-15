@@ -19,6 +19,7 @@
 # Step 3: Allow cli-anything-plugin entirely
 !/cli-anything-plugin/
 !/codex-skill/
+!/openclaw-skill/
 
 # Step 4: Allow each software dir (top level only)
 !/gimp/
@@ -33,7 +34,6 @@
 !/zoom/
 !/drawio/
 !/unreal_engine/
-!/source/
 
 # Step 5: Inside each software dir, ignore everything (including dotfiles)
 /gimp/*
@@ -60,8 +60,6 @@
 /drawio/.*
 /unreal_engine/*
 /unreal_engine/.*
-/source/*
-/source/.*
 
 # Step 6: ...except agent-harness/
 !/gimp/agent-harness/
@@ -81,12 +79,6 @@
 !/unreal_engine/SKILL.md
 !/unreal_engine/UNREAL_ENGINE.md
 
-# Track merged source tree for OpenClaw + UE5
-!/source/README.md
-!/source/README_CN.md
-!/source/unreal_engine/
-!/source/unreal_engine/**
-
 # Step 7: Ignore build artifacts within allowed dirs
 **/__pycache__/
 **/*.egg-info/
@@ -94,6 +86,8 @@
 **/dist/
 **/build/
 **/.pytest_cache/
+**/.coverage
+**/coverage.xml
 **/*.egg
 **/*.mp4
 **/*.wav
@@ -101,6 +95,8 @@
 **/*.xcf
 **/*.mlt
 **/*.drawio
+**/tests/completion_report.md
+**/tests/test_report.md
 
 # Step 8: But allow assets images
 !/assets/*.png

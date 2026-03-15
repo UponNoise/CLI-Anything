@@ -17,6 +17,13 @@ A powerful command-line interface for Unreal Engine 5, designed to streamline ga
 - **Packaging**: Cook, stage, and package projects for distribution
 - **Interactive REPL**: Rich command-line interface with auto-completion
 
+## Current Scope and Limitations
+
+- This harness focuses on a stable CLI surface and file-structure workflows.
+- Some editor-deep operations are currently scaffolded and require a running UE environment or future backend wiring.
+- Certain asset and blueprint operations use simulated filesystem behavior to enable offline testing.
+- For production automation, prefer commands that already invoke native UE build/cook tooling (UBT/UAT) and validate outputs in your environment.
+
 ## Installation
 
 ### From PyPI (Recommended)
