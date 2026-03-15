@@ -32,6 +32,8 @@
 !/anygen/
 !/zoom/
 !/drawio/
+!/unreal_engine/
+!/source/
 
 # Step 5: Inside each software dir, ignore everything (including dotfiles)
 /gimp/*
@@ -56,6 +58,10 @@
 /zoom/.*
 /drawio/*
 /drawio/.*
+/unreal_engine/*
+/unreal_engine/.*
+/source/*
+/source/.*
 
 # Step 6: ...except agent-harness/
 !/gimp/agent-harness/
@@ -69,6 +75,17 @@
 !/anygen/agent-harness/
 !/zoom/agent-harness/
 !/drawio/agent-harness/
+!/unreal_engine/agent-harness/
+
+# Track UE5 docs at repo root
+!/unreal_engine/SKILL.md
+!/unreal_engine/UNREAL_ENGINE.md
+
+# Track merged source tree for OpenClaw + UE5
+!/source/README.md
+!/source/README_CN.md
+!/source/unreal_engine/
+!/source/unreal_engine/**
 
 # Step 7: Ignore build artifacts within allowed dirs
 **/__pycache__/
