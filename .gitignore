@@ -13,6 +13,7 @@
 # Step 2: Allow .gitignore, README, assets, and marketplace
 !.gitignore
 !/README.md
+!/INDEPENDENT_PROJECT_TECH_REFERENCE_CN.md
 !/assets/
 !/.claude-plugin/
 

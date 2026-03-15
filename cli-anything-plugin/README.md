@@ -6,6 +6,8 @@ Build powerful, stateful CLI interfaces for any GUI application using the cli-an
 
 The cli-anything plugin automates the process of creating production-ready command-line interfaces for GUI applications. It follows a proven methodology that has successfully generated CLIs for GIMP, Blender, Inkscape, Audacity, LibreOffice, OBS Studio, and Kdenlive — with over 1,100 passing tests across all implementations.
 
+For independent distribution planning and maintenance, see `../INDEPENDENT_PROJECT_TECH_REFERENCE_CN.md`.
+
 ## What It Does
 
 This plugin transforms GUI applications into agent-usable CLIs by:
